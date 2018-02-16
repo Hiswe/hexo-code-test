@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "hexo server"
+    "start": "rm -rf node_modules && yarn install && hexo server --port 4200"
   },
   "hexo": {
     "version": "3.5.0"
