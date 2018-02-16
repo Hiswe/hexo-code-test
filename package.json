@@ -2,9 +2,11 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "start": "hexo server"
+  },
   "hexo": {
-    "version": "3.5.0",
-    "start": "npm run hexo server"
+    "version": "3.5.0"
   },
   "dependencies": {
     "hexo": "^3.1.0",
@@ -13,8 +15,8 @@
     "hexo-generator-index": "^0.1.2",
     "hexo-generator-tag": "^0.1.1",
     "hexo-renderer-ejs": "^0.1.0",
-    "hexo-renderer-marked": "^0.2.4",
     "hexo-renderer-stylus": "^0.3.0",
+    "hexo-renderer-marked": "^0.2.4",
     "hexo-server": "^0.1.2"
   },
   "main": "index.js",
